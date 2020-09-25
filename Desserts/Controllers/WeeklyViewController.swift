@@ -25,6 +25,9 @@ class WeeklyViewController: UIViewController {
         
     }
 
+    @IBAction func monthButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "weeklyToMonthly", sender: self)
+    }
     
     
 }

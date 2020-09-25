@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		106D60332B651A8384C83CE2 /* Pods_DessertsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990810002108B6388FD53B3D /* Pods_DessertsTests.framework */; };
 		8D5EF06E858CC5D63BCBEC21 /* Pods_Desserts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869106C538C4D93FF53CC003 /* Pods_Desserts.framework */; };
+		CE188D4A251DB07700D92DDB /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE188D49251DB07700D92DDB /* MonthlyViewController.swift */; };
+		CE188D4B251DB07700D92DDB /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE188D49251DB07700D92DDB /* MonthlyViewController.swift */; };
 		CE206B08250E033600DC41BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B07250E033600DC41BF /* AppDelegate.swift */; };
 		CE206B0A250E033600DC41BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B09250E033600DC41BF /* SceneDelegate.swift */; };
 		CE206B0C250E033600DC41BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B0B250E033600DC41BF /* ViewController.swift */; };
@@ -27,6 +29,10 @@
 		CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
 		CE206B3B250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
 		CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */; };
+		CE92FE45251B88E100DB4A4E /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE44251B88E100DB4A4E /* MacawChartView.swift */; };
+		CE92FE46251B88E100DB4A4E /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE44251B88E100DB4A4E /* MacawChartView.swift */; };
+		CE92FE4C251B88F500DB4A4E /* WeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */; };
+		CE92FE4D251B88F500DB4A4E /* WeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,7 @@
 		6B2FD67FC5BDA45D1149FC65 /* Pods-Desserts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desserts.release.xcconfig"; path = "Target Support Files/Pods-Desserts/Pods-Desserts.release.xcconfig"; sourceTree = "<group>"; };
 		869106C538C4D93FF53CC003 /* Pods_Desserts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desserts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990810002108B6388FD53B3D /* Pods_DessertsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DessertsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE188D49251DB07700D92DDB /* MonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
 		CE206B04250E033600DC41BF /* Desserts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desserts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE206B07250E033600DC41BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE206B09250E033600DC41BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +68,8 @@
 		CE206B36250E3E5300DC41BF /* SpoqaHanSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSans-Regular.ttf"; sourceTree = "<group>"; };
 		CE206B39250E497000DC41BF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		CE92FE44251B88E100DB4A4E /* MacawChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
+		CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyChart.swift; sourceTree = "<group>"; };
 		D0D18AA196FAD91FAFBA5A04 /* Pods-Desserts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desserts.debug.xcconfig"; path = "Target Support Files/Pods-Desserts/Pods-Desserts.debug.xcconfig"; sourceTree = "<group>"; };
 		E9C3B090440E54527794B487 /* Pods-DessertsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DessertsTests.debug.xcconfig"; path = "Target Support Files/Pods-DessertsTests/Pods-DessertsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +152,7 @@
 		CE206B29250E0E8F00DC41BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,10 +160,7 @@
 		CE206B2A250E0E9800DC41BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE206B0B250E033600DC41BF /* ViewController.swift */,
-				CE206B33250E362C00DC41BF /* LoginViewController.swift */,
-				CE206B39250E497000DC41BF /* QuestionViewController.swift */,
-				CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */,
+				CE92FE44251B88E100DB4A4E /* MacawChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +168,11 @@
 		CE206B2B250E0EE800DC41BF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CE206B0B250E033600DC41BF /* ViewController.swift */,
+				CE206B33250E362C00DC41BF /* LoginViewController.swift */,
+				CE206B39250E497000DC41BF /* QuestionViewController.swift */,
+				CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */,
+				CE188D49251DB07700D92DDB /* MonthlyViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -183,7 +195,6 @@
 				E9C3B090440E54527794B487 /* Pods-DessertsTests.debug.xcconfig */,
 				1A926BBB97097581402BB056 /* Pods-DessertsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -235,7 +246,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "김예랑";
 				TargetAttributes = {
 					CE206B03250E033600DC41BF = {
@@ -364,9 +375,12 @@
 				CE206B34250E362C00DC41BF /* LoginViewController.swift in Sources */,
 				CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */,
 				CE206B0C250E033600DC41BF /* ViewController.swift in Sources */,
+				CE188D4A251DB07700D92DDB /* MonthlyViewController.swift in Sources */,
 				CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */,
 				CE206B08250E033600DC41BF /* AppDelegate.swift in Sources */,
+				CE92FE45251B88E100DB4A4E /* MacawChartView.swift in Sources */,
 				CE206B0A250E033600DC41BF /* SceneDelegate.swift in Sources */,
+				CE92FE4C251B88F500DB4A4E /* WeeklyChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE188D4B251DB07700D92DDB /* MonthlyViewController.swift in Sources */,
 				CE206B35250E362C00DC41BF /* LoginViewController.swift in Sources */,
+				CE92FE4D251B88F500DB4A4E /* WeeklyChart.swift in Sources */,
+				CE92FE46251B88E100DB4A4E /* MacawChartView.swift in Sources */,
 				CE206B1F250E033A00DC41BF /* DessertsTests.swift in Sources */,
 				CE206B3B250E497000DC41BF /* QuestionViewController.swift in Sources */,
 			);
@@ -436,6 +453,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -496,6 +514,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

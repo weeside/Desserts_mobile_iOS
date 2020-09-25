@@ -13,8 +13,8 @@ class MacawChartView: MacawView {
     
     static let thisWeek = createDummyData()
     static let maxValue = 10.0
-    static let maxValueLineHeight = 0.3
-    static let lineWidth: Double = 330
+//    static let maxValueLineHeight = 0.3
+    static let lineWidth: Double = 360
     
     // animation용 variables
 //    static let dataDivisor = Double(maxValue/maxValueLineHeight)
@@ -44,9 +44,12 @@ class MacawChartView: MacawView {
         for i in 1...maxLines {
             let y = yAxisHeight - (Double(i) * lineSpacing)
             
-            let valueLine = Line(-5, y, lineWidth, y).stroke(fill:Color.gray.with(a: 0.10))
-            let valueText = Text(text: "\(i * lineInterval)", align: .max
-                                 , baseline: .mid, place: .move(-10, y))
+            let valueLine = Line(25, y + 5, lineWidth, y)
+                .stroke(fill:Color.gray.with(a: 0.10))
+            let valueText = Text(text: "\(i * lineInterval)",
+                                 align: .max,
+                                 baseline: .mid,
+                                 place: .move(15, y + 5))
             valueText.fill = Color.gray
             
             newNodes.append(valueLine)
@@ -54,7 +57,8 @@ class MacawChartView: MacawView {
         }
         
         // y축 선
-//        let yAxis = Line(0, 0, 0, yAxisHeight).stroke(fill:Color.gray.with(a: 0.25))
+//        let yAxis = Line(0, 0, 0, yAxisHeight)
+//            .stroke(fill:Color.gray.with(a: 0.25))
 //        newNodes.append(yAxis)
         
         return newNodes
@@ -66,12 +70,16 @@ class MacawChartView: MacawView {
         
         for i in 1...thisWeek.count {
             let x = (Double(i)) * 50
-            let valueText = Text(text: thisWeek[i - 1].weekday, align: .max, baseline: .mid, place: .move(x - 25, chartBaseY + 15))
+            let valueText = Text(text: thisWeek[i - 1].weekday,
+                                 align: .max,
+                                 baseline: .mid,
+                                 place: .move(x, chartBaseY + 15))
             valueText.fill = Color.gray
             newNodes.append(valueText)
         }
         
-        let xAxis = Line(0, chartBaseY, lineWidth, chartBaseY).stroke(fill:Color.gray.with(a: 0.25))
+        let xAxis = Line(15, chartBaseY, lineWidth, chartBaseY)
+            .stroke(fill:Color.gray.with(a: 0.25))
         newNodes.append(xAxis)
         return newNodes
     }
@@ -91,7 +99,7 @@ class MacawChartView: MacawView {
         
         var rects: [Shape] = []
         for i in 0...6 {
-            let rect = Rect(Double(i) * 50 + 5, 200 - thisWeek[i].rate * 20, 25, thisWeek[i].rate * 20)
+            let rect = Rect(Double(i) * 50 + 30, 200 - thisWeek[i].rate * 20 + 5, 25, thisWeek[i].rate * 20 - 5)
             
             var fillColor = Color.clear
             switch thisWeek[i].rate {
