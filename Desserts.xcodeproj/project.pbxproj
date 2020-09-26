@@ -29,6 +29,7 @@
 		CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
 		CE206B3B250E497000DC41BF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B39250E497000DC41BF /* QuestionViewController.swift */; };
 		CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */; };
+		CE50A0BC251F6EA3000800B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50A0BB251F6EA3000800B1 /* Constants.swift */; };
 		CE92FE45251B88E100DB4A4E /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE44251B88E100DB4A4E /* MacawChartView.swift */; };
 		CE92FE46251B88E100DB4A4E /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE44251B88E100DB4A4E /* MacawChartView.swift */; };
 		CE92FE4C251B88F500DB4A4E /* WeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */; };
@@ -68,6 +69,7 @@
 		CE206B36250E3E5300DC41BF /* SpoqaHanSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSans-Regular.ttf"; sourceTree = "<group>"; };
 		CE206B39250E497000DC41BF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		CE50A0BB251F6EA3000800B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE92FE44251B88E100DB4A4E /* MacawChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
 		CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyChart.swift; sourceTree = "<group>"; };
 		D0D18AA196FAD91FAFBA5A04 /* Pods-Desserts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desserts.debug.xcconfig"; path = "Target Support Files/Pods-Desserts/Pods-Desserts.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				CE206B10250E033A00DC41BF /* Assets.xcassets */,
 				CE206B12250E033A00DC41BF /* LaunchScreen.storyboard */,
 				CE206B15250E033A00DC41BF /* Info.plist */,
+				CE50A0BB251F6EA3000800B1 /* Constants.swift */,
 			);
 			path = Desserts;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				CE206B0C250E033600DC41BF /* ViewController.swift in Sources */,
 				CE188D4A251DB07700D92DDB /* MonthlyViewController.swift in Sources */,
 				CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */,
+				CE50A0BC251F6EA3000800B1 /* Constants.swift in Sources */,
 				CE206B08250E033600DC41BF /* AppDelegate.swift in Sources */,
 				CE92FE45251B88E100DB4A4E /* MacawChartView.swift in Sources */,
 				CE206B0A250E033600DC41BF /* SceneDelegate.swift in Sources */,

@@ -10,5 +10,5 @@ import Foundation
 
 struct WeeklyChart {
     var weekday: String
-    var rate: Double
+    var rate: Double?
 }
