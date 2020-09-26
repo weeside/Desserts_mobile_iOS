@@ -6,8 +6,9 @@ target 'Desserts' do
   use_frameworks!
 
   # Pods for Desserts
-  pod 'Charts'
-  pod 'TinyConstraints'
+  # pod 'Charts'
+  # pod 'TinyConstraints'
+  pod 'Macaw'
 
   target 'DessertsTests' do
     inherit! :search_paths

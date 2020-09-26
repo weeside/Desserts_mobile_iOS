@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WXJ-2i-mUa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WXJ-2i-mUa">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -51,7 +53,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="naverLogin" translatesAutoresizingMaskIntoConstraints="NO" id="vTq-hU-cGr">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="38"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-17-QDc">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-17-QDc">
                                         <rect key="frame" x="34" y="0.0" width="98" height="38"/>
                                         <fontDescription key="fontDescription" name="SpoqaHanSans-Regular" family="SpoqaHanSans" pointSize="17"/>
                                         <state key="normal" title="네이버 로그인">
@@ -70,7 +72,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="facebookLogin" translatesAutoresizingMaskIntoConstraints="NO" id="wO9-MI-2S8">
                                         <rect key="frame" x="0.0" y="0.0" width="24" height="38"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRK-xN-9bZ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRK-xN-9bZ">
                                         <rect key="frame" x="35" y="0.0" width="114" height="38"/>
                                         <fontDescription key="fontDescription" name="SpoqaHanSans-Regular" family="SpoqaHanSans" pointSize="17"/>
                                         <state key="normal" title="페이스북 로그인">
@@ -90,7 +92,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="rt4-E8-Xx6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="t2c-oa-cxN" firstAttribute="top" secondItem="BSs-QW-rVZ" secondAttribute="topMargin" constant="-44" id="4m6-nE-jJZ"/>
                             <constraint firstItem="t2c-oa-cxN" firstAttribute="leading" secondItem="rt4-E8-Xx6" secondAttribute="leading" id="5rB-yZ-Lml"/>
@@ -111,7 +114,6 @@
                             <constraint firstItem="mTn-Ms-qpY" firstAttribute="top" secondItem="BSs-QW-rVZ" secondAttribute="top" constant="647" id="wmH-yb-23w"/>
                             <constraint firstItem="WOs-qo-uTN" firstAttribute="leading" secondItem="BSs-QW-rVZ" secondAttribute="leadingMargin" id="yWo-Nb-53d"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="rt4-E8-Xx6"/>
                     </view>
                     <navigationItem key="navigationItem" id="cbr-DG-dlR"/>
                     <connections>
@@ -179,7 +181,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Ka8-6K-z1X">
                                 <rect key="frame" x="16" y="766" width="382" height="57"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTH-bg-kpH">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTH-bg-kpH">
                                         <rect key="frame" x="0.0" y="0.0" width="185.5" height="57"/>
                                         <color key="backgroundColor" red="0.050949580969999998" green="0.04706587642" blue="0.047047927980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="SpoqaHanSans-Bold" family="SpoqaHanSans" pointSize="20"/>
@@ -191,7 +193,7 @@
                                             <segue destination="tQe-VV-bHM" kind="presentation" identifier="noToWeekly" modalPresentationStyle="fullScreen" id="dcv-Md-RVy"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykc-dS-8P0">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykc-dS-8P0">
                                         <rect key="frame" x="196.5" y="0.0" width="185.5" height="57"/>
                                         <color key="backgroundColor" red="0.99818199870000002" green="0.54139631990000003" blue="0.54122388359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="SpoqaHanSans-Bold" family="SpoqaHanSans" pointSize="20"/>
@@ -213,7 +215,8 @@
                                 <state key="normal" image="hamburgerIcon"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ueV-R7-ZuI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2tp-aN-76n" firstAttribute="leading" secondItem="xCT-B9-ZwW" secondAttribute="leading" id="0TT-LV-PjW"/>
                             <constraint firstItem="B0c-AV-QJg" firstAttribute="centerY" secondItem="mr9-Vs-3qX" secondAttribute="centerY" id="0fG-G9-XSY"/>
@@ -238,7 +241,6 @@
                             <constraint firstItem="Ka8-6K-z1X" firstAttribute="leading" secondItem="ueV-R7-ZuI" secondAttribute="leading" constant="16" id="uNx-jd-OjY"/>
                             <constraint firstItem="cjp-WQ-Bep" firstAttribute="leading" secondItem="ueV-R7-ZuI" secondAttribute="leading" id="xGq-rO-OxE"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ueV-R7-ZuI"/>
                     </view>
                     <navigationItem key="navigationItem" id="4vl-Vk-TIu"/>
                     <connections>
@@ -277,7 +279,7 @@
                                 <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Buy-Ji-KT9">
-                                <rect key="frame" x="14" y="489" width="209" height="16"/>
+                                <rect key="frame" x="14" y="489" width="209" height="15.5"/>
                                 <color key="backgroundColor" red="0.97926586869999999" green="0.94176411630000001" blue="0.36792758110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="withyeah님의 감정 리포트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqu-1g-Axg">
@@ -287,16 +289,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yIs-HH-g7B">
-                                <rect key="frame" x="20" y="529" width="120" height="17"/>
+                                <rect key="frame" x="20" y="528.5" width="120" height="18"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="emojiHappy" translatesAutoresizingMaskIntoConstraints="NO" id="9aE-qM-a17">
-                                        <rect key="frame" x="0.0" y="0.0" width="18" height="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="spectrum" translatesAutoresizingMaskIntoConstraints="NO" id="N33-9H-Qav">
-                                        <rect key="frame" x="22" y="0.0" width="76" height="17"/>
+                                        <rect key="frame" x="22" y="0.0" width="76" height="18"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="emojiSad" translatesAutoresizingMaskIntoConstraints="NO" id="9c8-2Z-daJ">
-                                        <rect key="frame" x="102" y="0.0" width="18" height="17"/>
+                                        <rect key="frame" x="102" y="0.0" width="18" height="18"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -321,10 +323,20 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="84" id="fI5-1Z-dsm"/>
                                 </constraints>
                                 <state key="normal" image="weekToMonthButton"/>
+                                <connections>
+                                    <action selector="monthButtonPressed:" destination="tQe-VV-bHM" eventType="touchUpInside" id="6GJ-P0-Mmv"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBx-I3-aqT" customClass="MacawChartView" customModule="Desserts" customModuleProvider="target">
+                                <rect key="frame" x="20" y="601" width="374" height="261"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ciw-xl-cqp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="wBx-I3-aqT" firstAttribute="top" secondItem="heM-pT-vQa" secondAttribute="bottom" constant="51" id="0HT-VK-FwP"/>
+                            <constraint firstItem="wBx-I3-aqT" firstAttribute="bottom" secondItem="ciw-xl-cqp" secondAttribute="bottom" id="0e7-AX-E56"/>
                             <constraint firstItem="6zb-35-vjq" firstAttribute="top" secondItem="ciw-xl-cqp" secondAttribute="top" constant="55" id="11p-Sf-c3I"/>
                             <constraint firstItem="Uxq-6K-HdA" firstAttribute="leading" secondItem="ciw-xl-cqp" secondAttribute="leading" id="1HQ-Oe-jQE"/>
                             <constraint firstItem="ciw-xl-cqp" firstAttribute="trailing" secondItem="o1h-80-fC6" secondAttribute="trailing" constant="20" id="43Z-19-1W8"/>
@@ -337,15 +349,16 @@
                             <constraint firstItem="6zb-35-vjq" firstAttribute="leading" secondItem="ciw-xl-cqp" secondAttribute="leading" constant="20" id="C8e-PN-KiH"/>
                             <constraint firstItem="ciw-xl-cqp" firstAttribute="bottom" secondItem="heM-pT-vQa" secondAttribute="bottom" constant="312" id="DWi-5a-8BC"/>
                             <constraint firstItem="heM-pT-vQa" firstAttribute="top" secondItem="cbn-td-beY" secondAttribute="bottom" constant="70" id="GhH-rL-978"/>
+                            <constraint firstItem="ciw-xl-cqp" firstAttribute="trailing" secondItem="wBx-I3-aqT" secondAttribute="trailing" constant="20" id="GuK-2H-rsV"/>
                             <constraint firstItem="yIs-HH-g7B" firstAttribute="top" secondItem="Buy-Ji-KT9" secondAttribute="bottom" constant="24" id="HFS-W5-MmV"/>
                             <constraint firstItem="39V-EK-mMZ" firstAttribute="top" secondItem="6zb-35-vjq" secondAttribute="bottom" constant="51.5" id="KJX-Js-3Ni"/>
                             <constraint firstItem="Buy-Ji-KT9" firstAttribute="top" secondItem="cbn-td-beY" secondAttribute="bottom" constant="34" id="Pnd-dp-StW"/>
                             <constraint firstItem="ciw-xl-cqp" firstAttribute="trailing" secondItem="heM-pT-vQa" secondAttribute="trailing" constant="20" id="RA5-YE-csg"/>
-                            <constraint firstAttribute="bottom" secondItem="Buy-Ji-KT9" secondAttribute="bottom" constant="391" id="UC5-TG-huy"/>
                             <constraint firstItem="cbn-td-beY" firstAttribute="centerY" secondItem="Zoq-so-mJ3" secondAttribute="centerY" id="Z7p-tp-nxT"/>
                             <constraint firstItem="cbn-td-beY" firstAttribute="centerX" secondItem="Zoq-so-mJ3" secondAttribute="centerX" id="Zp4-eL-DGU"/>
                             <constraint firstItem="heM-pT-vQa" firstAttribute="top" secondItem="cbn-td-beY" secondAttribute="bottom" constant="70" id="aB0-To-Xkc"/>
                             <constraint firstItem="39V-EK-mMZ" firstAttribute="centerX" secondItem="cbn-td-beY" secondAttribute="centerX" id="e87-0h-APi"/>
+                            <constraint firstItem="wBx-I3-aqT" firstAttribute="leading" secondItem="ciw-xl-cqp" secondAttribute="leading" constant="20" id="enr-SF-ih7"/>
                             <constraint firstItem="hqu-1g-Axg" firstAttribute="leading" secondItem="ciw-xl-cqp" secondAttribute="leading" constant="20" id="kFv-ue-umI"/>
                             <constraint firstItem="hqu-1g-Axg" firstAttribute="top" secondItem="cbn-td-beY" secondAttribute="bottom" constant="19" id="nBa-R3-1J2"/>
                             <constraint firstItem="o1h-80-fC6" firstAttribute="top" secondItem="ciw-xl-cqp" secondAttribute="top" constant="65" id="oUl-X2-d6n"/>
@@ -358,7 +371,6 @@
                             <constraint firstItem="Uxq-6K-HdA" firstAttribute="centerX" secondItem="Zoq-so-mJ3" secondAttribute="centerX" id="vbf-ai-gy6"/>
                             <constraint firstItem="Uxq-6K-HdA" firstAttribute="top" secondItem="Zoq-so-mJ3" secondAttribute="topMargin" constant="-44" id="vkY-Je-37X"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ciw-xl-cqp"/>
                     </view>
                     <navigationItem key="navigationItem" id="MFP-Tr-dlf"/>
                     <connections>
@@ -386,5 +398,8 @@
         <image name="naverLogin" width="24" height="24"/>
         <image name="spectrum" width="76" height="16"/>
         <image name="weekToMonthButton" width="628" height="190"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
