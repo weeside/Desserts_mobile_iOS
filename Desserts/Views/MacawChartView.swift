@@ -100,13 +100,13 @@ class MacawChartView: MacawView {
         
         switch rate {
         case 0..<2:
-            fill = Color(K.BrandColors.pink)
+            fill = Color(K.HexColors.pink)
         case 2..<4:
-            fill = Color(K.BrandColors.orange)
+            fill = Color(K.HexColors.orange)
         case 4..<6:
-            fill = Color(K.BrandColors.green)
+            fill = Color(K.HexColors.green)
         case 6...10:
-            fill = Color(K.BrandColors.blue)
+            fill = Color(K.HexColors.blue)
         default:
             fill = Color.clear
         }
