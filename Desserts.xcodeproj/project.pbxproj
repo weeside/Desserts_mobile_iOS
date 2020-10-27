@@ -34,6 +34,9 @@
 		CE92FE46251B88E100DB4A4E /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE44251B88E100DB4A4E /* MacawChartView.swift */; };
 		CE92FE4C251B88F500DB4A4E /* WeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */; };
 		CE92FE4D251B88F500DB4A4E /* WeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */; };
+		CED3428F254803B4006FE64A /* CustomSideMenuNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3428E254803B4006FE64A /* CustomSideMenuNavigation.swift */; };
+		CED34293254804C6006FE64A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED34292254804C6006FE64A /* SideMenuViewController.swift */; };
+		CED34296254804CE006FE64A /* CustomSideMenuNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3428E254803B4006FE64A /* CustomSideMenuNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,8 @@
 		CE50A0BB251F6EA3000800B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE92FE44251B88E100DB4A4E /* MacawChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
 		CE92FE4B251B88F500DB4A4E /* WeeklyChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyChart.swift; sourceTree = "<group>"; };
+		CED3428E254803B4006FE64A /* CustomSideMenuNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideMenuNavigation.swift; sourceTree = "<group>"; };
+		CED34292254804C6006FE64A /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		D0D18AA196FAD91FAFBA5A04 /* Pods-Desserts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desserts.debug.xcconfig"; path = "Target Support Files/Pods-Desserts/Pods-Desserts.debug.xcconfig"; sourceTree = "<group>"; };
 		E9C3B090440E54527794B487 /* Pods-DessertsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DessertsTests.debug.xcconfig"; path = "Target Support Files/Pods-DessertsTests/Pods-DessertsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +181,8 @@
 				CE206B39250E497000DC41BF /* QuestionViewController.swift */,
 				CE206B3C250F4E8400DC41BF /* WeeklyViewController.swift */,
 				CE188D49251DB07700D92DDB /* MonthlyViewController.swift */,
+				CED3428E254803B4006FE64A /* CustomSideMenuNavigation.swift */,
+				CED34292254804C6006FE64A /* SideMenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -379,9 +386,11 @@
 				CE206B3A250E497000DC41BF /* QuestionViewController.swift in Sources */,
 				CE206B0C250E033600DC41BF /* ViewController.swift in Sources */,
 				CE188D4A251DB07700D92DDB /* MonthlyViewController.swift in Sources */,
+				CED34293254804C6006FE64A /* SideMenuViewController.swift in Sources */,
 				CE206B3D250F4E8400DC41BF /* WeeklyViewController.swift in Sources */,
 				CE50A0BC251F6EA3000800B1 /* Constants.swift in Sources */,
 				CE206B08250E033600DC41BF /* AppDelegate.swift in Sources */,
+				CED3428F254803B4006FE64A /* CustomSideMenuNavigation.swift in Sources */,
 				CE92FE45251B88E100DB4A4E /* MacawChartView.swift in Sources */,
 				CE206B0A250E033600DC41BF /* SceneDelegate.swift in Sources */,
 				CE92FE4C251B88F500DB4A4E /* WeeklyChart.swift in Sources */,
@@ -393,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE188D4B251DB07700D92DDB /* MonthlyViewController.swift in Sources */,
+				CED34296254804CE006FE64A /* CustomSideMenuNavigation.swift in Sources */,
 				CE206B35250E362C00DC41BF /* LoginViewController.swift in Sources */,
 				CE92FE4D251B88F500DB4A4E /* WeeklyChart.swift in Sources */,
 				CE92FE46251B88E100DB4A4E /* MacawChartView.swift in Sources */,

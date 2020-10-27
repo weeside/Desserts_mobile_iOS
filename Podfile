@@ -10,6 +10,7 @@ target 'Desserts' do
   # pod 'TinyConstraints'
   pod 'Macaw'
   pod 'FSCalendar'
+  pod 'SideMenu'
 
   target 'DessertsTests' do
     inherit! :search_paths

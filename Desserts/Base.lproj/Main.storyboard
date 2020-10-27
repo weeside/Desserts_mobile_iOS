@@ -31,10 +31,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="t2c-oa-cxN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3u-nz-1gA">
-                                <rect key="frame" x="370" y="109" width="24" height="24"/>
-                                <state key="normal" image="hamburgerIcon"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desserts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOs-qo-uTN">
                                 <rect key="frame" x="20" y="99" width="175" height="44.5"/>
                                 <constraints>
@@ -103,11 +99,8 @@
                             <constraint firstItem="6bg-kF-yX0" firstAttribute="centerY" secondItem="BSs-QW-rVZ" secondAttribute="centerY" constant="30" id="VSn-mT-K3A"/>
                             <constraint firstItem="WOs-qo-uTN" firstAttribute="top" secondItem="rt4-E8-Xx6" secondAttribute="top" constant="55" id="VaS-mt-UK8"/>
                             <constraint firstItem="ZuU-aA-A3r" firstAttribute="top" secondItem="mTn-Ms-qpY" secondAttribute="bottom" constant="13" id="WAw-VE-KRT"/>
-                            <constraint firstItem="v3u-nz-1gA" firstAttribute="top" secondItem="rt4-E8-Xx6" secondAttribute="top" constant="65" id="gCs-6s-wFy"/>
                             <constraint firstItem="6bg-kF-yX0" firstAttribute="leading" secondItem="rt4-E8-Xx6" secondAttribute="leading" constant="20" id="gdZ-xw-aIC"/>
                             <constraint firstItem="t2c-oa-cxN" firstAttribute="centerY" secondItem="BSs-QW-rVZ" secondAttribute="centerY" id="iga-Ab-wlv"/>
-                            <constraint firstItem="v3u-nz-1gA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WOs-qo-uTN" secondAttribute="trailing" constant="8" symbolic="YES" id="ke6-bq-e5P"/>
-                            <constraint firstItem="rt4-E8-Xx6" firstAttribute="trailing" secondItem="v3u-nz-1gA" secondAttribute="trailing" constant="20" id="oHW-Ar-Gs0"/>
                             <constraint firstItem="9Ak-D1-qFF" firstAttribute="leading" secondItem="rt4-E8-Xx6" secondAttribute="leading" constant="20" id="ocL-lR-yLL"/>
                             <constraint firstItem="t2c-oa-cxN" firstAttribute="centerX" secondItem="BSs-QW-rVZ" secondAttribute="centerX" id="ozw-wV-Ixi"/>
                             <constraint firstItem="rt4-E8-Xx6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6bg-kF-yX0" secondAttribute="trailing" symbolic="YES" id="uog-pG-xeK"/>
@@ -122,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RAU-XC-ee9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892.75362318840587" y="126.5625"/>
+            <point key="canvasLocation" x="748" y="159"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="fR0-nQ-q7C">
@@ -213,6 +206,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dN8-6U-1eX">
                                 <rect key="frame" x="370" y="109" width="24" height="24"/>
                                 <state key="normal" image="hamburgerIcon"/>
+                                <connections>
+                                    <segue destination="uNo-BP-i5c" kind="show" id="WqY-kh-J3l"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ueV-R7-ZuI"/>
@@ -252,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wk5-qx-vEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671.0144927536232" y="126.5625"/>
+            <point key="canvasLocation" x="1677" y="159"/>
         </scene>
         <!--Weekly View Controller-->
         <scene sceneID="630-qb-kiO">
@@ -314,6 +310,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1h-80-fC6">
                                 <rect key="frame" x="370" y="109" width="24" height="24"/>
                                 <state key="normal" image="hamburgerIcon"/>
+                                <connections>
+                                    <segue destination="uNo-BP-i5c" kind="show" id="YSS-6g-Tws"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heM-pT-vQa">
                                 <rect key="frame" x="310" y="525" width="84" height="25"/>
@@ -380,7 +379,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nm6-IO-Zur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457.971014492754" y="126.5625"/>
+            <point key="canvasLocation" x="2639" y="159"/>
         </scene>
         <!--Weekly View Controller-->
         <scene sceneID="1Ih-zg-SFN">
@@ -442,6 +441,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ex8-ee-4Qx">
                                 <rect key="frame" x="370" y="109" width="24" height="24"/>
                                 <state key="normal" image="hamburgerIcon"/>
+                                <connections>
+                                    <segue destination="uNo-BP-i5c" kind="show" id="t6H-Zf-ZHQ"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fh-Gl-Icf" customClass="FSCalendar">
                                 <rect key="frame" x="20" y="548" width="374" height="315"/>
@@ -527,11 +529,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzV-bv-jcn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3250.7246376811595" y="126.5625"/>
+            <point key="canvasLocation" x="3635" y="159"/>
+        </scene>
+        <!--Custom Side Menu Navigation-->
+        <scene sceneID="t2q-99-OLh">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="uNo-BP-i5c" customClass="CustomSideMenuNavigation" customModule="Desserts" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jtZ-6w-D8b"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8RV-lb-tt4">
+                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="alwaysAnimate" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="Wi8-jr-COV" kind="relationship" relationship="rootViewController" id="xVl-dn-E8y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lkE-Kn-wkd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1855" y="-668"/>
+        </scene>
+        <!--Side Menu View Controller-->
+        <scene sceneID="rVi-83-5Xp">
+            <objects>
+                <viewController id="Wi8-jr-COV" customClass="SideMenuViewController" customModule="Desserts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RWN-bl-aRg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHs-Tb-DQm">
+                                <rect key="frame" x="68" y="757" width="96" height="51"/>
+                                <fontDescription key="fontDescription" name="SpoqaHanSans-Bold" family="SpoqaHanSans" pointSize="26"/>
+                                <state key="normal" title="로그아웃">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="Wi8-jr-COV" eventType="touchUpInside" id="tcd-q3-gpM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ttn-kA-v13"/>
+                        <color key="backgroundColor" red="0.99818199870000002" green="0.54139631990000003" blue="0.54122388359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hHs-Tb-DQm" firstAttribute="leading" secondItem="Ttn-kA-v13" secondAttribute="leading" constant="68" id="JYe-UN-dhu"/>
+                            <constraint firstItem="hHs-Tb-DQm" firstAttribute="bottom" secondItem="Ttn-kA-v13" secondAttribute="bottom" id="lS2-v0-1OS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="r9d-XZ-cks"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TR-zM-9eJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2857.971014492754" y="-668.30357142857144"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xee-A1-aEa"/>
+        <segue reference="WqY-kh-J3l"/>
+        <segue reference="kpQ-yo-Qug"/>
         <segue reference="vHg-DS-Gb6"/>
     </inferredMetricsTieBreakers>
     <resources>

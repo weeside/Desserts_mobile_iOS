@@ -2,23 +2,27 @@ PODS:
   - FSCalendar (2.8.1)
   - Macaw (0.9.7):
     - SWXMLHash
+  - SideMenu (6.5.0)
   - SWXMLHash (5.0.1)
 
 DEPENDENCIES:
   - FSCalendar
   - Macaw
+  - SideMenu
 
 SPEC REPOS:
   trunk:
     - FSCalendar
     - Macaw
+    - SideMenu
     - SWXMLHash
 
 SPEC CHECKSUMS:
   FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
   Macaw: 4a931baf9a9826b06d0d8ecf300014c962ab9d50
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
 
-PODFILE CHECKSUM: d96c34698d9b6e41d1e7449c004199ae3f92a673
+PODFILE CHECKSUM: e898a2cf3a3a2cf65a6621b98c24c4c21c684168
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
